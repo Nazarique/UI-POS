@@ -1,0 +1,10 @@
+C:\Users\henri\Documents\UI-POS\UI POS\UI POS\bin\Debug\UI POS.exe.config
+C:\Users\henri\Documents\UI-POS\UI POS\UI POS\bin\Debug\UI POS.exe
+C:\Users\henri\Documents\UI-POS\UI POS\UI POS\bin\Debug\UI POS.pdb
+C:\Users\henri\Documents\UI-POS\UI POS\UI POS\obj\Debug\UI POS.csproj.AssemblyReference.cache
+C:\Users\henri\Documents\UI-POS\UI POS\UI POS\obj\Debug\UI_POS.Form1.resources
+C:\Users\henri\Documents\UI-POS\UI POS\UI POS\obj\Debug\UI_POS.Properties.Resources.resources
+C:\Users\henri\Documents\UI-POS\UI POS\UI POS\obj\Debug\UI POS.csproj.GenerateResource.cache
+C:\Users\henri\Documents\UI-POS\UI POS\UI POS\obj\Debug\UI POS.csproj.CoreCompileInputs.cache
+C:\Users\henri\Documents\UI-POS\UI POS\UI POS\obj\Debug\UI POS.exe
+C:\Users\henri\Documents\UI-POS\UI POS\UI POS\obj\Debug\UI POS.pdb
