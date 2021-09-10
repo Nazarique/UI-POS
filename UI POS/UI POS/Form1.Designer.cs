@@ -43,7 +43,6 @@ namespace UI_POS
             this.panel6 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.btnCloseUI = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
             this.imgLogoSetis = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -51,7 +50,6 @@ namespace UI_POS
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogoSetis)).BeginInit();
             this.SuspendLayout();
             // 
@@ -233,19 +231,10 @@ namespace UI_POS
             this.btnCloseUI.UseVisualStyleBackColor = true;
             this.btnCloseUI.Click += new System.EventHandler(this.btnCloseUI_Click);
             // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.imgLogoSetis);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(300, 103);
-            this.panel7.TabIndex = 6;
-            // 
             // imgLogoSetis
             // 
             this.imgLogoSetis.Image = ((System.Drawing.Image)(resources.GetObject("imgLogoSetis.Image")));
-            this.imgLogoSetis.Location = new System.Drawing.Point(69, 26);
+            this.imgLogoSetis.Location = new System.Drawing.Point(68, 41);
             this.imgLogoSetis.Name = "imgLogoSetis";
             this.imgLogoSetis.Size = new System.Drawing.Size(163, 61);
             this.imgLogoSetis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -259,23 +248,25 @@ namespace UI_POS
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(300, 520);
+            this.Controls.Add(this.imgLogoSetis);
             this.Controls.Add(this.btnCloseUI);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel7);
             this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "POS";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.imgLogoSetis)).EndInit();
             this.ResumeLayout(false);
 
@@ -297,7 +288,6 @@ namespace UI_POS
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button btnCloseUI;
-        private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.PictureBox imgLogoSetis;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
